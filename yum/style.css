@@ -23,7 +23,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: helvetica;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -54,3 +54,29 @@ table {
 /* END RESET */
 
 
+h1{
+	font-family:pacifico;
+  padding:15px;
+  font-size:40px;
+  background-color:maroon;
+  color:white;
+}
+h2{
+	font-family:pacifico;
+  padding:12px;
+  font-size:20px;
+}
+li{
+  font-family:baskerville;
+  
+}
+
+footer li {
+  padding:30px;
+  float:left;
+    }
+
+footer h1{
+  float:left;
+  margin:50px;
+}

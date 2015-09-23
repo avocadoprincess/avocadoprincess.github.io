@@ -23,7 +23,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: helvetica;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -50,6 +50,36 @@ table {
 	border-spacing: 0;
 }
 
-/* -----------------END RESET---------------- */
 
+/* END RESET */
 
+img {
+    float: left;
+    margin: 10px 10px 10px 10px;  
+}
+
+#main-content{
+  float:left;
+  margin:0 0 10px 10px;
+}
+
+h1 {
+  font-family:Helvetica;
+  color:black;
+  font-size:30px;
+}
+
+h2 {
+  font-family:helvetica;
+  font-size:15px;
+  color:grey;
+  
+}
+p {
+  font-family:helvetica;
+  font-size:12px;
+  
+}
+ #main-content {
+  float:left;  
+}

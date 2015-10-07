@@ -55,15 +55,15 @@ table {
 
 img {
     float: left;
-    margin: 0px 10px 10px 0px;
-    width: 50%;
-    height:50%;
+    margin: 4%;
+    width: 40%;
+    height:40%;
 }
 
 article {
   float:left;
-  margin:10px 0px 0px 10px;
-  width: 30%;
+  margin:5%;
+  width: 40%;
 }
 
 h1 {

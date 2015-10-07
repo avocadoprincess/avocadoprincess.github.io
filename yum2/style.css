@@ -53,6 +53,18 @@ table {
 
 /* END RESET */
 
+#article1 {
+	float: left;
+	padding: 15px;
+	width: 50%;
+}
+
+article2 {
+	float: left;
+	padding: 15px;
+	width: 50%;
+}
+
 
 h1{
 	font-family:pacifico;
@@ -62,7 +74,7 @@ h1{
   color:white;
 }
 h2{
-	font-family:pacifico;
+  font-family:pacifico;
   padding:12px;
   font-size:20px;
 }
@@ -79,4 +91,8 @@ footer li {
 footer h1{
   float:left;
   margin:50px;
+}
+
+a {
+    color: #FFFFFF;
 }

@@ -31,6 +31,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -53,27 +54,76 @@ table {
 
 /* END RESET */
 
-img {
-    float: top;
-    margin: 10px 10px 10px 10px;  
+article img{
+    float:top;
+    width: 50%;
+     
 }
 
-nav ul li{
-  float:left;
+body {
+	position: relative; 25% 25% 25% 25%;
+}
+
+header {
+	position: relative;
+	margin:0 auto;
+	width: 50%;
+	padding: 25px;
+}
+
+
+
+#content {
+  width: 900px;
+  margin: auto;
+}
+
+article {
+	float:left;
+	width: 50%;
+	margin:15px 15px 15px 15px;
+}
+
+li{
+  display:inline-block;
   padding:15px;
   font-family:georgia;
   font-weight:bold;
-  
+  margin:0 auto;
+  margin-bottom: 20px;
   }
+
+ul{
+  text-align:center;
+}
+
+nav{
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  height: 38px;
+  margin-bottom: 25px;
+}
+
 
 h1  {
   font-family:georgia;
   color:black;
   font-size:30px;
+  float: bottom;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 
 p {
   font-family:georgia;
-  font-size:12px;
+  font-size:18px;
+  line-height: 20px;
+  margin-bottom:40px;
   }
+
+footer{ 
+  border-top: 3px solid black;
+  padding: 25px;
+}

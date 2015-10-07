@@ -55,31 +55,36 @@ table {
 
 img {
     float: left;
-    margin: 10px 10px 10px 10px;  
+    margin: 0px 10px 10px 0px;
+    width: 50%;
+    height:50%;
 }
 
 article {
   float:left;
-  margin:0px 0px 10px 10px;
+  margin:10px 0px 0px 10px;
+  width: 30%;
 }
 
 h1 {
   font-family:Helvetica;
   color:black;
-  font-size:30px;
+  font-size:20px;
+	line-height: 30px;
 }
 
 h2 {
   font-family:helvetica;
   font-size:15px;
   color:grey;
+	line-height: 25px;
   
 }
 p {
+  float: left;
   font-family:helvetica;
-  font-size:12px;
+  font-size:10px;
+line-height: 13px;
+width: 40%;
   
-}
- #main-content {
-  float:left;  
 }

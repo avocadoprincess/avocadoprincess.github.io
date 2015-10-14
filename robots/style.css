@@ -32,6 +32,25 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  
+}
+
+
+
+
+
+
 header {
   position: relative;
   background-color:#FFF6D6;
@@ -70,21 +89,7 @@ nav, ul, li{
   color: white;
   
 }
-
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-  
-}
+ 
 #top-nav a{
   font-size: 10px;
   color: #6E4918;
@@ -99,7 +104,7 @@ table {
 #main-menu {
   background-color: #6E4918;
   position: absolute;
-  top:150px;
+  top:200px;
   left: 0px;
   width: 100%;
   font-weight: bold;
@@ -113,11 +118,6 @@ main-menu,ul, li, a{
   padding: 4px;
   color: white;
   font-size: 13px;
-}
-
-main-menu: first-child{
-  margin-left: 200px;
-  color:white;
 }
 
 nav,ul, li{
@@ -149,49 +149,88 @@ footer-wrapper{
 }
 #footer-contact p{
   position: absolute;
-  left: 300px;
+  left: 290px;
+  bottom: 00px;
   width: 150px;
   color: white;
   background-color:#6E4918;
-  height: 40%;
   margin-bottom: 25px;
   
-  
+}
+h1 {
+	font-family:Helvetica;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-bottom:10px;
+	color:#7F5217;
+	padding-top:40px;
 }
 
-h1 a{
-  color: grey; 
+h2 {
+	font-family:Helvetica;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#7F5217;
+	padding-bottom:8px;
 }
+
+h3 {
+	font-family:Helvetica;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#C19A6B;
+	padding-bottom:8px;
+}
+
+
+#main-menu nav li{
+	height:30px;
+	font-weight:bold;
+	background-color:#7F5217;
+	text-transform:uppercase;
+	font-family:Helvetica;
+	font-size:11px;
+        margin-left: 300px;
+}
+
+p {
+	font-family:Helvetica;
+	font-size:11px;
+	padding-bottom:14px;
+}
+
+
 #footer-follow{
   position: absolute;
   left: 900px;
-  top: 800px;
+  top: 900px;
   background-color:#6E4918;
-  width: 100%;
-  height: 20%;
-  margin-bottom: 125px;
-  padding: 30px;
-
+  padding: 60px;
 }
 
-
-}
 
 #footer-follow h1{
   color: grey;
   position: absolute; 
-  top: 800px;
+  left:80px;
+  top: -50px;
+}
 
-  
-
+#footer-follow ul li{
+  position: relative;
+  top:450px;
+  padding: 20px;
 }
 #footer-contact h1{
   color: grey;
   position: relative;
-  left: 73px;
-
-
+  left:	260px;
+  bottom:60px;
 }
+
 #sidebar{
   position: absolute;
   top:250px;
@@ -199,11 +238,7 @@ h1 a{
   width: 20%;
 }
 
-page,sidebar,nav,ul,li,a{
-  color:6E4918;
-}
-
-menu-wrapper, nav, ul, li, a{
+#menu-wrapper, main-menu, nav, ul, li, a{
   color: white;
 }
 
@@ -212,4 +247,10 @@ article{
   margin-left: 50px;
 }
 
+
+#footer-follow li a{
+  position: relative;
+  bottom: 500px;
+  right: 90px;
+}
 

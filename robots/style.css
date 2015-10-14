@@ -64,10 +64,11 @@ a{
   line-height: 20px;
 }
 
-ol, ul {
-	list-style: none;
+nav, ul, li{
+  list-style: none;
   font-size: 15px;
   color: white;
+  
 }
 
 
@@ -85,7 +86,7 @@ table {
   
 }
 #top-nav a{
-  font-size: 15px;
+  font-size: 10px;
   color: #6E4918;
  
 }
@@ -99,7 +100,7 @@ table {
   background-color: #6E4918;
   position: absolute;
   top:150px;
-  left: 300px;
+  left: 0px;
   width: 100%;
   font-weight: bold;
   color: white;
@@ -109,9 +110,14 @@ main-menu,ul, li, a{
   text-decoration: none;
   text-transform: uppercase;
   float: left;
-  padding: 5px;
+  padding: 4px;
   color: white;
-  }
+  font-size: 13px;
+}
+
+main-menu: first-child{
+  margin-left: 200px;
+  color:white;
 }
 
 nav,ul, li{
@@ -126,16 +132,15 @@ nav,ul, li{
   clear:both;
   position: absolute;
   top:250px;
-  left: 300px;
+  left: 250px;
 }
-site-footer{
+footer-wrapper{
   width: 100%;
   background-color:#6E4918;
 }
 #footer-contact{
-  position: absolute;
-  top: 800px;
-  left: 300px;
+  position: relative;
+  top:800px;
   background-color:#6E4918;
   width: 100%;
   margin-top: 25px;
@@ -143,6 +148,8 @@ site-footer{
   
 }
 #footer-contact p{
+  position: absolute;
+  left: 300px;
   width: 150px;
   color: white;
   background-color:#6E4918;
@@ -151,24 +158,39 @@ site-footer{
   
   
 }
+
+h1 a{
+  color: grey; 
+}
 #footer-follow{
   position: absolute;
-  top: 800px;
   left: 900px;
+  top: 800px;
   background-color:#6E4918;
   width: 100%;
   height: 20%;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 125px;
   padding: 30px;
+
+}
+
 
 }
 
 #footer-follow h1{
   color: grey;
+  position: absolute; 
+  top: 800px;
+
+  
+
 }
 #footer-contact h1{
   color: grey;
+  position: relative;
+  left: 73px;
+
+
 }
 #sidebar{
   position: absolute;
@@ -176,8 +198,13 @@ site-footer{
   left: 900px;
   width: 20%;
 }
-aside, sidebar, ul, li, a{
-  color: #6E4918;
+
+page,sidebar,nav,ul,li,a{
+  color:6E4918;
+}
+
+menu-wrapper, nav, ul, li, a{
+  color: white;
 }
 
 article{
@@ -185,6 +212,4 @@ article{
   margin-left: 50px;
 }
 
-menu-wrapper, nav, ul, li, a{
-  color: white;
-}
+

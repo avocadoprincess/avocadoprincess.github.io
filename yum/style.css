@@ -53,51 +53,43 @@ table {
 
 /* END RESET */
 
-body {
-	height:700px;
-	width 1000px;
+#article1 {
+	float: left;
+	padding: 15px;
+	width: 50%;
 }
-header h1{
-	position:absolute;
-	top:300px;
-	left:-340px;
-        width: 700px;
-	text-align:center;
-	-moz-transform: rotate(270deg);
+
+article2 {
+	float: left;
+	padding: 15px;
+	width: 50%;
 }
+
+
 h1{
-  font-family:pacifico;
+	font-family:pacifico;
   padding:15px;
   font-size:40px;
   background-color:maroon;
   color:white;
-  width: 700px;
+  clear:both;
 }
-
 h2{
   font-family:pacifico;
-  margin: 25px 25px 25px 25px;
+  padding:12px;
   font-size:20px;
 }
-
-h3{
-  font-family:pacifico;
-  padding:15px;
-  font-size:40px;
-  background-color:maroon;
-  color:white;
-  position: absolute; 
-  top: 600px;
-  right: 540px;
-}
-
 li{
   font-family:baskerville;
   
 }
+
+a {
+    color: #FFFFFF;
+}
+
 section {
 	float:left;
-	height: 400px;
 	width: 350px;
 	padding: 25px;
 	line-height: 20px;
@@ -120,4 +112,4 @@ footer ul{
 	position: relative;
 	top:0px;
 	left:90px;
-
+}

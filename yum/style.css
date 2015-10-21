@@ -58,6 +58,12 @@ table {
 	padding: 15px;
 	width: 50%;
 }
+header{
+    -webkit-transform: rotate(270deg);
+    position: relative;
+    left: -472px;
+    top: 472px;
+}
 
 article2 {
 	float: left;
@@ -73,6 +79,7 @@ h1{
   background-color:maroon;
   color:white;
   clear:both;
+  text-align:right;
 }
 h2{
   font-family:pacifico;

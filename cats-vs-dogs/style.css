@@ -61,7 +61,7 @@ article img{
 }
 
 body {
-	position: relative; 25% 25% 25% 25%;
+	margin:auto 0;
 }
 
 header {
@@ -139,4 +139,16 @@ header {max-width:100%;}
        
 
 }
-      
+
+h3 { font-family: georgia;
+	font-weight: bold;
+  font-size: 50px;}
+
+@font-face {
+  font-family: "Your typeface";
+  src: url("type/leaguegothic.eot");
+  src: local("☺"),
+    url("type/leaguegothic.woff") format("woff"),
+    url("type/leaguegothic.otf") format("opentype"),
+    url("type/leaguegothic.svg#leaguegothic") format("svg");
+}

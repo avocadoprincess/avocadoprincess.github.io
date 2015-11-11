@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+  	<header>Megan Johnson</header>
+	<nav>
+		<ul>
+			<li><img src="images/donut.gif" width="400" height="375" alt=""></li>
+			<li><a href="avocadoprincess.github.io/final/aboutme.html">about me</a></li>
+			<li><a href="avocadoprincess.github.io/final/portfolio.html">portfolio</a></li>
+			<li><a href="avocadoprincess.github.io/final/resume.html">resume</a></li>
+		</ul>
+	</nav>
+	<section>
+		<ul>
+			<li><a href="a href="avocadoprincess.github.io/final/peta.html">
+				<img border="0" alt="W3Schools" src="peta1.jpg" width="15%" height="15%"></a></li>
+			<li><a href="a href="avocadoprincess.github.io/final/disney.html">
+				<img border="0" alt="W3Schools" src="disney3.jpg" width="15%" height="15%"></a></li>
+			<li><a href="a href="avocadoprincess.github.io/final/imagine.html">
+				<img border="0" alt="W3Schools" src="imagine1.jpg" width="15%" height="15%"></a></li>
+			<li><a href="a href="avocadoprincess.github.io/final/book.html">
+				<img border="0" alt="W3Schools" src="book1.jpg" width="15%" height="15%"></a></li>
+			<li><a href="a href="avocadoprincess.github.io/final/opposites.html">
+				<img border="0" alt="W3Schools" src="opposites1.jpg" width="15%" height="15%"></a></li>
+			<li><a href="a href="avocadoprincess.github.io/final/stamp.html">
+				<img border="0" alt="W3Schools" src="stamp1.jpg" width="15%" height="15%"></a></li>
+		</ul>
+
+
+
+
+
+</section>
+
+
+<footer>
+	<ul id="social">
+		<li><a href="https://www.behance.net/MeganJohnson">
+			<img border="0" alt="behance" src="images/behance.png" width="15%" height="15%"></li>
+		<li><a href="https://vimeo.com/user39548567">
+			<img border="0" alt="vimeo" src="images/vimeo.png" width="15%" height="15%"></li>
+		<li><a href="https://www.pinterest.com/av0cadoprincess/">
+			<img border="0" alt="vimeo" src="images/pinterest.png" width="15%" height="15%"></li>
+		<li><a href="https://www.facebook.com/megan.johnson.9010">
+			<img border="0" alt="vimeo" src="images/facebook.png" width="15%" height="15%"></li>
+</footer>
+
+
+  </body>
+</html>

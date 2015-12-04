@@ -142,7 +142,6 @@ nav{
 
 
 }
-nav li{}
 
 
 #imagine {
@@ -156,4 +155,81 @@ nav li{}
 	height:25%;
 	width:100%;
 	z-index: 2;
+}
+
+
+#me {
+	margin-top:15%;
+	float:left;
+	margin-left:15%;
+}
+
+section p{
+	float: right;
+	width: 20%;
+	margin-right: 30%;
+	line-height: 1.25;
+}
+
+h2 {
+font-family: "Raleway",sans-serif;
+font-size: 120%;
+color: #000;
+margin-top: 17%;
+margin-right: 30%;
+width: 20%;
+float: right;
+height: 5%;
+line-height: 2;
+}
+
+#petaproj {
+	margin-top:15%;
+	float:left;
+	margin-left:15%;
+	width:25%;
+}
+
+#disneyproj {
+	margin-top:15%;
+	float:left;
+	margin-left:2%;
+	width:25%;
+
+}
+
+#imagineproj {
+	margin-top:2%;
+	float:left;
+	margin-left:15%;
+	width:25%;
+}
+
+#bookproj {
+	margin-top:2%;
+	float:left;
+	margin-left:2%;
+	width:25%;
+}
+
+#oppositesproj {
+	margin-top:2%;
+	float:left;
+	margin-left:15%;
+	width:25%;
+}
+
+#stampproj {
+	margin-top:2%;
+	float:left;
+	margin-left:2%;
+	width:25%;
+}
+
+.fancybox {
+	margin-left:15%;
+	margin-top:30%;
+	clear:left;
+
+
 }

@@ -226,10 +226,18 @@ line-height: 2;
 	width:25%;
 }
 
-.fancybox {
+#portfoliopage {
 	margin-left:15%;
-	margin-top:30%;
+	margin-top:4%;
 	clear:left;
-
-
 }
+
+#book {
+	margin-left:15%;
+	margin-top:12%;
+	clear:left;
+	width:50%;
+}
+
+
+

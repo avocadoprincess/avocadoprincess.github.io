@@ -175,7 +175,7 @@ h2 {
 font-family: "Raleway",sans-serif;
 font-size: 120%;
 color: #000;
-margin-top: 17%;
+margin-top: 2%;
 margin-right: 30%;
 width: 20%;
 float: right;
@@ -232,12 +232,50 @@ line-height: 2;
 	clear:left;
 }
 
-#book {
-	margin-left:15%;
-	margin-top:12%;
-	clear:left;
-	width:50%;
+#petaphotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
 }
+
+p{
+	float: right;
+width: 20%;
+margin-right: -20%;
+line-height: 1.25;
+margin-top: 5%;
+}
+
+#bookphotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
+}
+
+#imaginephotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
+}
+
+#disneyphotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
+}
+
+#oppositesphotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
+}
+
+#stampphotos img {
+	display: block;
+	margin: 12% 0% 0% 16%;
+}
+
+
+
+
+
+
+
 
 
 
